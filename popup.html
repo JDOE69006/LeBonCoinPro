@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LebonCoinPro</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>LebonCoinPro</h1>
+      <p class="subtitle">Republiez vos annonces rapidement</p>
+    </header>
+
+    <main>
+      <div class="popup-body">
+        <section class="settings-card" aria-labelledby="settings-title">
+          <h2 id="settings-title">Préférences</h2>
+          <label class="setting-row" for="dashboard-buttons">
+            <span>Boutons du dashboard</span>
+            <input id="dashboard-buttons" type="checkbox" checked>
+          </label>
+          <label class="setting-row" for="article-clone-button">
+            <span>Bouton « Cloner l'annonce »</span>
+            <input id="article-clone-button" type="checkbox" checked>
+          </label>
+        </section>
+        <div class="popup-card">
+          <div class="popup-card-title">
+            <span>✨</span>
+            <span>Comment l'utiliser ?</span>
+          </div>
+          <div class="popup-card-text">
+            Gérez vos annonces depuis votre <a href="https://www.leboncoin.fr/compte/part/mes-annonces" target="_blank">tableau de bord Leboncoin</a> ou clonez une annonce depuis sa fiche.
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
